@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+    overflow-x: hidden;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #21222A;
+    color: #DEEBF8;
+    padding: 1.25em;
+    font-weight: 700;
+}
+
+.navgrp{
+    display: flex;
+    gap: 2em;
+    align-items: center;
+}
+
+.icon{
+    width: 2em;
+}
+.title {
+    color: #61DAFB;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    background-color: #282D35;
+    color: white;
+    min-height: 100vh;
+    z-index: 1;
+    background-image: url(./images/logogrey.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+}
+
+.Main{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+.factlist{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    gap: 2em;
+    list-style: inside;
+}
+
+.factlist > li::marker{
+    color: #61DAFB;
+    font-size: 1.5rem;
+}
