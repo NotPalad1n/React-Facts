@@ -1,8 +1,13 @@
 import React from 'react'
 
-const Main = () => {
+import reactgrey from "../images/logogrey.png"
+import reactwhite from "../images/logowhite.png"
+
+const Main = (props) => {
+  const styles = props.mode ? {backgroundColor : "#282D35" , backgroundImage : `url(${reactgrey})`} : {backgroundColor : "white" , backgroundImage : `url(${reactwhite})`}
+  
   return (
-    <div className='Main'>
+    <div className='Main' style={styles}>
         <div>
             <h1>Fun facts about React</h1>
             <ul className='factlist'>
