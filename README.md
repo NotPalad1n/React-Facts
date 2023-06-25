@@ -1,2 +1,2 @@
 # React-Facts
-you can visualise the website on : https://react-facts.pages.dev/
+you can see the website on : https://react-facts.pages.dev/
